@@ -1,1 +1,96 @@
-/* css styles */
+/* ── Cyborg palette reference ──────────────────────────────────────────────
+   bg:       #060606
+   primary:  #2a9fd6
+   secondary:#555
+   font:     Roboto
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Hero banner */
+.hero-banner {
+  background: linear-gradient(135deg, #0a0a0a 0%, #0d1b2a 60%, #0a2540 100%);
+  border-bottom: 2px solid #2a9fd6;
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  font-size: 1.35rem;
+  color: #2a9fd6;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+.hero-content > p {
+  color: #adb5bd;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Section heading above listing */
+.section-heading {
+  color: #2a9fd6;
+  border-bottom: 1px solid #2a9fd6;
+  padding-bottom: 0.4rem;
+  margin-top: 3rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center the listing content area */
+#listing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Post cards */
+.quarto-post {
+  border: 1px solid #222 !important;
+  background-color: #0d0d0d !important;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.quarto-post:hover {
+  border-color: #2a9fd6 !important;
+  transform: translateY(-2px);
+}
+
+/* Navbar tweaks */
+.navbar {
+  border-bottom: 1px solid #2a9fd6;
+}
+
+/* Code blocks — slightly lighter bg for contrast on dark theme */
+pre.sourceCode {
+  background-color: #111 !important;
+  border: 1px solid #222;
+}
+
+/* Category badges */
+.listing-category {
+  background-color: #2a9fd6 !important;
+  color: #000 !important;
+  font-weight: 600;
+}

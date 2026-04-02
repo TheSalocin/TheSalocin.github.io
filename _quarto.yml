@@ -2,22 +2,27 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "personal_website"
+  description: "Data Science Portfolio"
+  site-url: https://TheSalocin.github.io # update with your GitHub username
+  title: "Nicolas Patzlaff"
   navbar:
+    background: dark
+    foreground: light
     right:
-      - about.qmd
+      - text: "Blog"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
+        href: https://github.com/TheSalocin
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nicolas-patzlaff-72b02b22b/
+
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cyborg
     css: styles.css
+    highlight-style: dracula
 
 
 

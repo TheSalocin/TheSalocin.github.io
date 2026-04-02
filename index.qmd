@@ -1,5 +1,7 @@
 ---
-title: "personal_website"
+title: ""
+page-layout: full
+title-block-banner: false
 listing:
   contents: posts
   feed: true
@@ -8,8 +10,24 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
+::: {.hero-banner}
+::: {.hero-content}
 
+# Nicolas Patzlaff {.hero-title}
+
+### Data Scientist & ML Engineer {.hero-subtitle}
+
+I build models, explore data, and write about what I find.
+Python · Machine Learning · Statistics · Visualization
+
+::: {.hero-links}
+[View Posts](#listing){.btn .btn-primary .btn-lg}
+[About Me](about.qmd){.btn .btn-outline-secondary .btn-lg}
+:::
+
+:::
+:::
+
+## Latest Posts {.section-heading}
